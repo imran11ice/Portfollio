@@ -1,0 +1,44 @@
+.banner {
+    gap: 20px;
+    padding: 20px;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .banner {
+      flex-direction: column; 
+      text-align: center; 
+    }
+  }
+
+
+
+  @media (max-width: 768px) {
+    .slide-banner {
+      flex-direction: column;
+      text-align: center;
+    }
+    .slide-img {
+      width: 100%; 
+    }
+  }
+  
+
+
+  @media (max-width: 768px) {
+    .expert-system {
+      flex-direction: column; 
+      align-items: center; 
+    }
+    .expert {
+      width: 100%;
+      text-align: center;  
+    }
+    .education {
+      width: 100%;
+      text-align: center; 
+    }
+  }
+  
